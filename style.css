@@ -45,21 +45,14 @@ p {
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  /* border: 5px outset rgb(56, 41, 187); */
-  /* background-color: rgb(195, 201, 221); */
-  /* background-image: url("Assets/self.jpg"); */
   text-align: center;
 }
 
 .info {
-  /* border: 5px outset rgb(56, 41, 187); */
   margin-top: 10px;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* background-color: rgb(195, 201, 221); */
   color: black;
 }
 .icon-bar {
@@ -68,6 +61,102 @@ p {
   margin-top: 15px;
   margin-right: 50px;
   text-align: right;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .head {
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: black;
+  }
+  icon-bar {
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-right: 150px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .head {
+    margin-top: 80px;
+    margin-left: 175px;
+    margin-right: 175px;
+    text-align: center;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-bottom: 175px;
+    margin-left: 175px;
+    margin-right: 175px;
+    color: black;
+  }
+  icon-bar {
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-right: 175px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  .head {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+  }
+  .icon-bar {
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-right: 200px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .head {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: black;
+  }
+  .icon-bar {
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-right: 300px;
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -87,5 +176,19 @@ p {
   }
   ul {
     font-size: 13px;
+  }
+  head {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  info {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
   }
 }
