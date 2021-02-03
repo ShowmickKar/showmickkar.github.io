@@ -135,9 +135,9 @@ p {
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1301px) {
   .head {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
