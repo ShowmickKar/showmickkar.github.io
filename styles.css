@@ -165,3 +165,27 @@ footer {
 .project h3 a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+#publications {
+    margin-top: 20px; /* Space above the publications section */
+}
+
+.publication-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    background-color: #ffffff; /* White background for each publication item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    margin-bottom: 15px; /* Space between publication items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.publication-item i {
+    color: #3b5b44; /* Darker green for icons */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.publication-item p {
+    color: #555555; /* Gray color for text */
+    margin: 0; /* Remove default margin from paragraph */
+}
