@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f8f6; /* Light background for contrast */
+}
+
+head {
+    background: #d3f1df; /* Light mint green header */
+    color: #3b5b44; /* Darker green text */
+    padding: 20px;
+    text-align: center; /* Center text */
+}
+
+header {
+    background: #d3f1df; /* Light mint green header */
+    color: #3b5b44; /* Darker green text */
+    padding: 20px;
+    text-align: center; /* Center text */
+}
+
+.profile-image {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Ensures it behaves as a block element */
+    margin: 0 auto 10px; /* Center the image and add space below */
+}
+
+.social-icons {
+    margin-top: 10px; /* Space above the icons */
+}
+
+.social-icons a {
+    color: #3b5b44; /* Darker green for icon color */
+    margin: 0 10px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+    color: #6cb2b5; /* Change color on hover */
+}
+
+nav {
+    position: fixed; /* Keeps the navbar fixed on the side */
+    top: 0;
+    left: 0;
+    width: 200px; /* Width of the sidebar */
+    height: 100%; /* Full height */
+    background-color: #2b5d5d; /* Darker teal for navigation background */
+    padding-top: 20px; /* Space at the top */
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    margin-bottom: 15px; /* Space between links */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around links */
+    display: block; /* Full width clickable area */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #6cb2b5; /* Change background color on hover and active state */
+}
+
+main {
+    margin-left: 220px; /* Space for the fixed navbar */
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the sections */
+    margin-bottom: 20px; /* Space between sections */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+/* Optional: Style for section headings */
+section h2 {
+    color: #3b5b44; /* Darker green for headings */
+}
+
+.experience-item {
+    background-color: #f9f9f9; /* Light background for each experience item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    margin-bottom: 20px; /* Space between items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative; /* Positioning for separator */
+}
+
+.experience-separator {
+    height: 4px; /* Height of the separator */
+    background-color: #008080; /* Color of the separator */
+    margin: 20px 0; /* Space around the separator */
+}
+
+.experience-item h3 {
+    color: #3b5b44; /* Darker green for job titles */
+}
+
+.experience-item p {
+    color: #555555; /* Gray color for additional details */
+}
+
+.experience-item ul {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Indent bullet points */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #3b5b44; /* Dark green footer */
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav {
+        position: relative; /* Stack navbar on top for small screens */
+        width: auto; /* Full width on small screens */
+        height: auto; /* Auto height on small screens */
+    }
+
+    main {
+        margin-left: 0; /* No margin on small screens */
+        padding-top: 20px; /* Padding for top space */
+    }
+}
+.project {
+    margin-bottom: 20px; /* Space between project entries */
+}
+
+.project h3 {
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.project h3 a {
+    color: #2b5d5d; /* Darker teal for project links */
+    text-decoration: none; /* Remove underline */
+}
+
+.project h3 a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
